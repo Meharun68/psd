@@ -1,0 +1,684 @@
+/* -------------------open sans font link------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* -------------------------------raleway-------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    color: #b0b0b0;
+}
+
+
+
+h1 h2 h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+
+}
+h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 100px;
+    height: 2px;
+    background-color: brown;
+    margin: 0 auto;
+}
+
+
+
+/* ----------------header---------------- */
+.header {
+    background-color: black;
+    width: 100%;
+
+}
+
+.nav-link {
+    color: #b0b0b0 !important;
+    font-family: railway;
+
+}
+
+.nav-item {
+    margin-left: 25px;
+    position: relative;
+}
+
+.nav-item::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #ff9b51;
+    transition: 0.7s;
+}
+
+.nav-item:hover::after {
+    width: 100%;
+    transition: 0.7s;
+
+}
+
+/* =================banner===================== */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/banner.png);
+    background-size: cover;
+}
+
+.content h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color: white;
+}
+
+.content h1 span {
+    font-size: 75px;
+    font-weight: 300;
+    color: #ff9b51;
+}
+
+.content h2 {
+    color: #b0b0b0;
+    width: 72%;
+}
+
+.content .underline {
+    margin: 25px 0px;
+    background-color: white;
+    width: 72px;
+    position: relative;
+}
+
+.content .underline::after {
+    content: "";
+    position: absolute;
+    left: 72px;
+    width: 72px;
+    transform: scale(72px, 85px);
+    transition: 0.8s;
+}
+
+.content .underline:hover::after {
+    transform: scale(85px, 85px);
+}
+
+.content p {
+    width: 62%;
+}
+
+.btns a {
+    padding: 8px 30px;
+
+}
+
+.btns .btn-info {
+    border-radius: 0px;
+    background: transparent;
+    border: 2px solid;
+    color: white;
+    margin-top: 30px;
+}
+
+.btns .btn-info:hover {
+    border-radius: 0px;
+    background: #ff9b51;
+    border: 0px;
+    color: black;
+    margin-top: 30px;
+}
+
+.cus-height {
+    height: 100vh;
+}
+
+.right-inner {
+    text-align: right;
+}
+
+.card {
+    width: 350px;
+    border: none !important;
+    border-radius: 0px;
+    margin-top: 50px;
+}
+.card-header:first-child{
+    border-radius: 0%;
+}
+
+.card .card-header h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.card .card-header h3 span {
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700;
+    color: #ff9b51;
+}
+
+.card .card-footer {
+    background: #ff9b51 !important;
+    border-radius: 0px !important;
+
+
+}
+
+.card .card-footer .form-control {
+    border: none !important;
+    background: transparent;
+    color: white !important;
+
+}
+
+.form-control {
+    border: none !important;
+    border-bottom: 1px solid #b0b0b0 !important;
+    border-radius: 0;
+
+}
+
+/* =============social section======================= */
+.social-section{
+    width: 100%;
+    padding: 12px 0px;
+    border-bottom: 2px solid #b0b0b0;
+
+}
+.social-section .title{
+    
+}
+.social-section .title h4{
+    
+}
+.social-section .title p {
+    color:#b0b0b0
+    
+}
+.social-icons{
+text-align: right;
+}
+.social-icons ul li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 22px;
+}
+.social-icons ul li a{
+    
+}
+.social-icons ul li a i{
+    font-size: 40px;
+    color: #b0b0b0;
+}
+
+/* ===============tab section=================== */
+.tab-section{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #f5f5f5;
+
+}
+.tab-section p{
+    width: 530px;
+    padding-bottom: 25px;
+}
+.nav-pills .nav-link{
+    width: 90px !important;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    background: black;
+    padding: 30px 0px;
+
+}
+.nav-pills .nav-link{
+margin-right: 70px;
+}
+.nav-pills .nav-link.active{
+    background: #ff8b38;
+}
+.tab-1{
+    border-radius: 4px 4px 0 0 !important;
+    border-bottom: 1px solid #f5f5f5;
+}
+.tab-2{
+    border-radius: 0 !important;
+    border-bottom: 1px solid #f5f5f5;
+}
+.tab-3{
+    border-radius:  0 0  4px 4px!important;
+}
+.btn-primary{
+    background-color: #ff8b38;
+    color: white;
+}
+.btn-primary:hover{
+    background:transparent;
+    color:black;
+    border: 2px solid #ff8b38;}
+
+    /* ================sub list section================== */
+
+.sub-list{
+    width: 100%;
+    padding: 80px 0px;
+}
+.sl-sec {
+    display: flex;
+    margin-top: 40px;
+}
+.sl-sec .sl-icon-1 i{
+  
+   color: #ff9b51;
+   border: 2px solid #ff9b51; 
+   border-radius: 50%;
+   padding: 10px;
+   font-size: 14px;
+}
+.sl-left{
+    margin-left: 30px;
+}
+.sl-left h6{
+    font-weight: 700;
+}
+.sl-left p{
+   width: 450px;
+} 
+.sl-sec .sl-icon-2 i{
+  
+    color: #ff9b51;
+    border: 2px solid #ff9b51; 
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 14px;
+ }
+
+
+ /* ==========================picture section=============== */
+ .standard-picture{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 80px 0;
+ }
+ .standard-picture .underline{
+    margin: 0;
+    border: 2px solid #ff9b51;
+    margin-top: 20px;
+ }
+
+ /* ===========================awsome section========================== */
+ .awesome-section{
+    width: 100%;
+    padding: 80px 0px;
+ }
+ .awesome-section .awesome-heading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.awesome-section .awesome-heading h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: 46px;
+}
+.awesome-section .awesome-heading .underline{
+   
+    border: 2px solid #ff9b51;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.awesome-inner{
+    text-align: center;
+} 
+.awesome-section .awesome-inner i {
+    color: #ff9b51;
+    border: 2px solid #ff9b51;
+    padding: 5% 7%;
+    font-size: 32px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.awesome-section .awesome-inner i:hover{
+    color:white;
+    border: 2px solid #ff9b51;
+    padding: 5% 7%;
+    font-size: 32px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    background-color: #ff9b51;
+}
+.awesome-section .awesome-inner .k-bord{
+    color: #ff9b51;
+    border: 2px solid #ff9b51;
+    padding: 5% ;
+    font-size: 32px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+/* ========================pricing section==================== */
+.pricing-sec{
+    width: 100%;
+    padding: 80px 0;
+    background-color: #f5f5f5;
+}
+.pric-heading{
+    text-align: center;
+}
+.pricing-sec .underline{
+    border: 2px solid #ff9b51;
+    margin-top: 20px;
+    margin-bottom: 50px; 
+}
+
+.price-card-1 {
+    text-align: center;
+    margin-top: 56px;
+}
+.price-card-2 {
+    text-align: center;
+}
+
+
+ .price-card .card-body-1 h1 sub {
+    font-size: 35px;
+}
+
+.price-card .card-body-1 h1{
+    font-size: 94px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;}
+
+    .price-card .card-body-2 h1{
+        font-size: 94px;
+        font-family: "Raleway", sans-serif;
+        font-weight: bold;}
+
+    
+
+.card-header{
+    border-bottom: 2px solid #b0b0b0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.price-card-1:hover .card-header{
+    border-bottom: 2px solid #b0b0b0;
+    background-color:#20d1c8;
+    color: black;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.price-card-2:hover .card-header{
+    border-bottom: 2px solid #b0b0b0;
+    background-color:#20d1c8;
+    color: black;
+    font-weight: bold;
+    padding: 15px 0;
+}
+.card-body-1{
+    border-bottom: 2px solid #b0b0b0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 200px;
+    
+}
+.price-card-1:hover .card-body-1{
+    border-bottom: 2px solid #b0b0b0;
+    background-color: rgb(124, 27, 64);
+    color: #7e9493;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 200px;
+    
+}
+.price-card-2:hover .card-body-1{
+    border-bottom: 2px solid #b0b0b0;
+    background-color: rgb(124, 27, 64);
+    color: #7e9493;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 200px;
+    
+}
+.card-body-2{
+    border-bottom: 4px solid #ff8b38;
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
+.price-card-1:hover .card-body-2{
+    border-bottom: 4px solid #ff8b38;
+    background-color:#13dbe9;
+    color: white;
+    padding: 5px 0;
+}
+.price-card-2:hover .card-body-2{
+    border-bottom: 4px solid #ff8b38;
+    background-color:#13dbe9;
+    color: white;
+    padding: 5px 0;
+}
+.card-body-3{
+    border-bottom: 4px solid #ff8b38;
+    background-color:#ff8b38;
+    color: white;
+    padding: 5px 0;
+}
+.price-card-2:hover .card-body-3{
+    border-bottom: 2px solid #b0b0b0;
+    background-color:  rgb(124, 27, 64);
+    color: #7e9493;
+    font-weight: bold;
+    padding: 5px 0;
+    font-size: 200px;
+    
+}
+.card-footer-1{
+    border-bottom: 2px solid #b0b0b0; 
+    background-color:white;
+    padding: 5px 0; 
+}
+.card-footer-2{
+    border-bottom: 2px solid #b0b0b0; 
+    background-color:white;
+    padding: 5px 0; 
+}
+.card-footer-3{
+    border-bottom: 2px solid #b0b0b0; 
+    background-color:white;
+    padding: 5px 0; 
+}
+.card-footer-4{
+    border-bottom: 2px solid #b0b0b0;  
+    background-color:white;
+    padding: 5px 0;
+}
+.card-footer-5{
+    border-bottom: 2px solid #b0b0b0;  
+    background-color:white;
+    padding: 5px 0;
+}
+.card-footer-6{
+    border-bottom: 2px solid #b0b0b0;  
+    background-color:white;
+    padding: 5px 0;
+}
+/* ========================pricing section==================== */
+
+
+/* =========================customer section================ */
+.customer{
+    width: 100%;
+    padding: 80px 0;
+}
+.customers-heading{
+    text-align: center;
+}
+
+.customers-heading .underline{
+    border: 2px solid #ff9b51;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.div p{
+    background-color:#f5f5f5;
+    padding: 25px 15px;
+    width: 300px;
+}
+.customer-inner-1{
+    display: flex;
+    align-items: center;
+}
+.inner-text{
+    margin-left: 20px;
+}
+.customer-inner h6{
+    color: #a4a5a8;
+}
+
+/* =========================customer section================ */
+
+/* =============================style section==================================== */
+
+
+.st-sec{
+    width: 100%;
+    padding: 80px 0;
+    background-image: url(img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.style-1{
+    text-align: center;
+}
+.style-1 h2{
+    color: #fafafa;
+}
+.style-1 p{
+    color: #a4a5a8;
+    font-weight: 400;
+}
+.style-1 .underline{
+    border: 2px solid #fafafa;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.style-1 .btns{
+    padding-top: 40px;
+}
+
+
+/* =======================contact section=============== */
+.contact{
+    width: 100%;
+    padding: 80px 0;
+}
+.contact-heading{
+    text-align: center;
+    padding-bottom: 60px;
+}
+.contact-heading .underline{
+    border: 2px solid #ff9b51;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.contact .form-left .form-control {
+    border: none;
+    border-bottom: 1px solid #7e9493;
+    border-radius: 0%;
+   padding-top:22px;
+   font-weight: 700;
+   color:#b0b0b0;
+}
+
+.contact .form-right .form-control {
+    border: none;
+    border-bottom: 1px solid #7e9493;
+    border-radius: 0%;
+    padding: 15px 15px;
+    height: 165px;
+    width: 93%;
+   margin-left: 60px;
+   font-weight: 700;
+   color:#b0b0b0;
+}
+.form-right .btns{
+    text-align: center;
+}
+.contact .btns{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+.contact .btns .btn-info {
+    border-radius: 0px;
+    background: #ff9b51;
+    border: 2px solid;
+    color: #fafafa;;
+    margin-top: 30px;
+    padding: 10px 30px;
+   
+}
+.contact .btns .btn-info:hover {
+    border-radius: 0px;
+    background: transparent;
+    border: 2px solid #ff9b51;
+    color: #000000;
+    margin-top: 30px;
+    padding: 10px 30px;
+   
+}
+/* ========================contact section=============== */
+
+/* ========================footer======================== */
+.footer{
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    background: #000000;
+}
+.footer-icon .fa{
+    padding: 10px 15px;
+    font-size: 24px;
+    color: #a4a5a8}
+ 
